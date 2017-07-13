@@ -57,8 +57,9 @@ public class SortAdapter extends BaseAdapter implements SectionIndexer {
         } else {
             viewHolder = (ViewHolder) view.getTag();
         }
-
-        //���position��ȡ���������ĸ��Char asciiֵ
+		
+ //刚刚删除了一行乱码，看看上传之后会有什么变化。。
+      
         int section = getSectionForPosition(position);
 
         //���ǰλ�õ��ڸ÷�������ĸ��Char��λ�� ������Ϊ�ǵ�һ�γ���
