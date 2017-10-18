@@ -13,6 +13,9 @@ public abstract class BaseLoadActivity extends ToolBarActivity implements OnRefr
 
     private PublicLoadLayout mPublicLoadLayout;
 
+    BaseLoadActivity(){
+    
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +33,7 @@ public abstract class BaseLoadActivity extends ToolBarActivity implements OnRefr
     }
 
     public void showNoData(){
+        
         mPublicLoadLayout.showNoData();
     }
 
